@@ -10,6 +10,7 @@ Desafio disponibilizado pela plataforma [Frontend Mentor](https://www.frontendme
 
 - HTML 
 - CSS
+- Javascript
 
 ## Detalhes do projeto
 
@@ -17,4 +18,11 @@ O projeto é um gerador de conselhos. Foi feito toda a estrutura, com responsivi
 
 ![telas pequenas](./src/design/mobile-design.jpg)
 
-Futuramente, este projeto será utilizado nas aulas de Javascript para consumir API.
+Este projeto está consumindo a API [ADVICE SLIP API](https://api.adviceslip.com/), portanto, este projeto concluiu todas as etapas exigidas.
+
+### Dificuldades
+1. Requisição para a API, utilizando o Fetch. 
+2. Inserir os dados coletados da API, direto no HTML
+
+### Demonstração do Projeto
+![demonstracao do projeto](./src/images/demonstracao-projeto-advice.gif)
