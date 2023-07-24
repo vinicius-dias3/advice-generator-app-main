@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body{
+    background-color: hsl(218, 23%, 16%);
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .conselhos {
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    max-width: 540px;
+    margin: 12px 12px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .conselhos .titulo{
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin: 40px 0 23px 0;
+}
+
+.main .conselhos .paragrafo{
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-weight: 800;
+    padding: 20px;
+}
+
+.main .conselhos button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    transform: translateY(50%);
+    background-color: hsl(150, 100%, 66%);
+}
+
+.main .conselhos button:hover{
+    cursor: pointer;
+    background-color: hsl(150, 100%, 66%);
+    box-shadow: 0 3px 7px hsl(150, 100%, 66%)
+}

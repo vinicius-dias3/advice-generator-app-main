@@ -1,0 +1,10 @@
+@media (max-width: 425px){
+    .main .conselhos{
+        width: 345px;
+        padding: 12px;
+    }
+
+    .main .conselhos .paragrafo{
+        font-size: 22px;
+    }
+}
